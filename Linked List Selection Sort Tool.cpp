@@ -53,7 +53,7 @@ int main() {
 	string temp;
 	string option;
 	Node* head = new Node();
-	cout << "Write a list of integers separated by spaces below. Write a non-numeric character to end the list (e.g. 1 2 3 4 5 h): " << endl;
+	cout << "Write a list of integers separated by spaces below. Write a non-numeric character to end the list (e.g. 143 42 3 46 5 h): " << endl;
 	cin >> newValue;
 	head->value = newValue;
 	while(cin >> newValue) {
